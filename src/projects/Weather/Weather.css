@@ -1,55 +1,94 @@
-/* Weather.css */
 .weather-container {
-  text-align: center;
-  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 120px);
+  background: linear-gradient(135deg, #87CEEB, #1E90FF);
   padding: 20px;
-  max-width: 400px;
-  margin: auto;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  background: #f9f9f9;
 }
 
-.weather-container h1 {
+.weather-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.weather-title {
+  font-size: 26px;
+  font-weight: bold;
   color: #333;
 }
 
-form {
-  margin-bottom: 20px;
+
+.weather-search {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
 }
 
-input {
-  padding: 8px;
-  width: 70%;
+.weather-search input {
+  flex: 1;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-button {
-  padding: 8px 12px;
-  border: none;
-  background-color: #007bff;
+.search-button {
+  background: #1E90FF;
   color: white;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 5px;
+}
+
+.search-button:hover {
+  background: #005bb5;
 }
 
 .weather-info {
-  margin-top: 20px;
-  padding: 15px;
-  background: white;
+  margin-top: 15px;
+}
+
+.temp {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff4500;
+}
+
+.description {
+  font-size: 18px;
+  color: #555;
+}
+
+.icon {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+.night {
+  color: #ffd700;
+}
+
+.extra-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 25px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
 }
 
-.weather-info h2 {
-  margin-bottom: 10px;
-  color: #007bff;
-}
-
-.weather-info p {
-  margin: 5px 0;
+.extra-details p {
+  font-size: 20px;
   color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
