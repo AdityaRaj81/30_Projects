@@ -1,4 +1,3 @@
-import React from 'react';
 import './MainHeader.css';
 
 const MainHeader = () => {
@@ -20,6 +19,9 @@ const MainHeader = () => {
             <span className="stat-number">100+</span>
             <span className="stat-label">Features</span>
           </div>
+        </div>
+        <div className='header-cta'>
+          <button className='contact-btn'>Connect to me</button>
         </div>
       </div>
       <div className="header-wave">
