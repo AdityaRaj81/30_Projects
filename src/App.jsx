@@ -36,7 +36,7 @@ import PasswordGenerator from './projects/PasswordGenerator/PasswordGenerator';
 // import KanbanBoard from './projects/KanbanBoard/KanbanBoard';
 // import Calendar from './projects/Calendar/Calendar';
 // import BudgetTracker from './projects/BudgetTracker/BudgetTracker';
-// import TaskTimer from './projects/TaskTimer/TaskTimer';
+import TaskTimer from './projects/TaskTimer/TaskTimer';
 
 // // Development Tools
 // import CodeEditor from './projects/CodeEditor/CodeEditor';
@@ -99,6 +99,15 @@ const projects = [
     imageUrl: "https://images.unsplash.com/photo-1611996575749-79a3a250f948?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     technologies: ["React", "AI", "Multiplayer"]
   },
+
+  {
+    "title": "TaskTimer",
+    "description": "A time-tracking web app to monitor tasks with detailed statistics and session tracking.",
+    "demoUrl": "/tasktimer",
+    "imageUrl": "https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    "technologies": ["React", "JavaScript", "LocalStorage"]
+}
+
   // Add more projects following the same pattern...
   // The complete list would include all 30 projects
 ];
@@ -143,9 +152,9 @@ function App() {
         <Route path="/pomodoro" element={<PomodoroTimer />} />
         <Route path="/kanban" element={<KanbanBoard />} />
         <Route path="/calendar" element={<Calendar />} />
-        <Route path="/budget" element={<BudgetTracker />} />
-        <Route path="/task-timer" element={<TaskTimer />} />
-        <Route path="/code-editor" element={<CodeEditor />} />
+        <Route path="/budget" element={<BudgetTracker />} /> */}
+        <Route path="/TaskTimer" element={<TaskTimer />} />
+        {/* <Route path="/code-editor" element={<CodeEditor />} />
         <Route path="/color-picker" element={<ColorPicker />} />
         <Route path="/form-builder" element={<FormBuilder />} />
         <Route path="/markdown-editor" element={<MarkdownEditor />} />
