@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://adityaraj81.github.io/30_Projects_React/"
+  "homepage": "https://adityaraj81.github.io/30_Projects_React/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
