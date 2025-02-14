@@ -8,7 +8,7 @@ import TodoList from './projects/TodoList/TodoList';
 import Calculator from './projects/Calculator/Calculator';
 import Weather from './projects/Weather/Weather';
 import NotesApp from './projects/NotesApp/NotesApp';
-// import PasswordGenerator from './projects/PasswordGenerator/PasswordGenerator';
+import PasswordGenerator from './projects/PasswordGenerator/PasswordGenerator';
 
 // Games
 // import MemoryGame from './projects/MemoryGame/MemoryGame';
@@ -81,7 +81,7 @@ const projects = [
     title: "Password Generator",
     description: "Secure password generator with customizable options.",
     demoUrl: "/password-generator",
-    imageUrl: "https://images.unsplash.com/photo-1555485898-0f7a0b4c3157?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1633265486064-086b219458ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFzc3dvcmR8ZW58MHx8MHx8fDA%3D",
     technologies: ["React", "Crypto", "Clipboard"]
   },
   // Games
@@ -124,8 +124,8 @@ function App() {
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/weather" element={<Weather />} />
         <Route path="/notes" element={<NotesApp />} />
-        {/* <Route path="/password-generator" element={<PasswordGenerator />} />
-        <Route path="/memory-game" element={<MemoryGame />} />
+        <Route path="/password-generator" element={<PasswordGenerator />} />
+        {/* <Route path="/memory-game" element={<MemoryGame />} />
         <Route path="/tic-tac-toe" element={<TicTacToe />} />
         <Route path="/snake-game" element={<SnakeGame />} />
         <Route path="/quiz" element={<QuizApp />} />
