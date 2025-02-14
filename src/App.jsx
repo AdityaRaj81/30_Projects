@@ -1,7 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import MainHeader from './components/layouts/MainHeader';
 import Footer from './components/layouts/Footer';
 import ProjectCard from './components/ProjectCard/ProjectCard';
+import { HashRouter } from "react-router-dom";
+
 
 // Basic Apps
 import TodoList from './projects/TodoList/TodoList';
@@ -114,7 +116,7 @@ const projects = [
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={
           <div className="app">
@@ -160,7 +162,7 @@ function App() {
         <Route path="/markdown-editor" element={<MarkdownEditor />} />
         <Route path="/api-tester" element={<APITester />} /> */}
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
 
