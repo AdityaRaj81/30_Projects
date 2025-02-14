@@ -7,7 +7,7 @@ import ProjectCard from './components/ProjectCard/ProjectCard';
 import TodoList from './projects/TodoList/TodoList';
 import Calculator from './projects/Calculator/Calculator';
 import Weather from './projects/Weather/Weather';
-// import NotesApp from './projects/NotesApp/NotesApp';
+import NotesApp from './projects/NotesApp/NotesApp';
 // import PasswordGenerator from './projects/PasswordGenerator/PasswordGenerator';
 
 // Games
@@ -123,8 +123,8 @@ function App() {
         <Route path="/todo" element={<TodoList />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/weather" element={<Weather />} />
-        {/* <Route path="/notes" element={<NotesApp />} />
-        <Route path="/password-generator" element={<PasswordGenerator />} />
+        <Route path="/notes" element={<NotesApp />} />
+        {/* <Route path="/password-generator" element={<PasswordGenerator />} />
         <Route path="/memory-game" element={<MemoryGame />} />
         <Route path="/tic-tac-toe" element={<TicTacToe />} />
         <Route path="/snake-game" element={<SnakeGame />} />
