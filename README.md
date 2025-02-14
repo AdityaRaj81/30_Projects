@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 
 # 🚀 30 Projects – React Edition 🎯
 
-Welcome to ** 30 Projects** – a challenge where I build 30 different projects in React, This repository showcases my journey of exploring React concepts, improving my frontend skills, and creating useful applications. 🌟
+Welcome to **30 Projects** – a challenge where I build 30 different projects in React, This repository showcases my journey of exploring React concepts, improving my frontend skills, and creating useful applications. 🌟
 
 ## 📌 About This Challenge
 This project is designed to:
