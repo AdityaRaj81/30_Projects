@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus, faEdit, faTrash, faChartPie, faMoneyBill } from '@fortawesome/free-solid-svg-icons';
+import { faEdit, faTrash, faChartPie, faMoneyBill } from '@fortawesome/free-solid-svg-icons';
 import { v4 as uuidv4 } from 'uuid';
-import HeaderProject from '../../components/headers/ProjectHeader';
-import Footer from '../../components/Footer/Footer';
+import HeaderProject from '../../components/layouts/ProjectHeader';
+import Footer from '../../components/layouts/Footer';
 import './BudgetTracker.css';
 
 const BudgetTracker = () => {
@@ -208,7 +208,7 @@ const BudgetTracker = () => {
               ))}
             </select>
             <input
-              type="date"
+              type="date" 
               value={newTransaction.date}
               onChange={(e) => setNewTransaction({
                 ...newTransaction,
